@@ -111,6 +111,8 @@ ENV/
 env.bak/
 venv.bak/
 working_dir/
+__pycache__/
+*.ipynb
 
 # Spyder project settings
 .spyderproject

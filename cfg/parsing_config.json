@@ -1,6 +1,6 @@
 
 
-parsing_config = {
+{
     "entity_code": 5,
     "information_date": 6,
     "identification_type": 2,
@@ -24,5 +24,5 @@ parsing_config = {
     "recategorizacion_mandatory": 1,
     "legal_situacion_irrecoverable_by_technical_provision": 1,
     "legal_status": 1,
-    "days_of_delay": 4,
+    "days_of_delay": 4
 }
