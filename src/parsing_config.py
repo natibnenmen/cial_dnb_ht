@@ -1,0 +1,28 @@
+
+
+parsing_config = {
+    "entity_code": 5,
+    "information_date": 6,
+    "identification_type": 2,
+    "identification_number": 11,
+    "activity": 3,
+    "situation": 2,
+    "loans": 12,
+    "participations": 12,
+    "guarantees_granted": 12,
+    "other_concepts": 12,
+    "preferred_guarantees_a": 12,
+    "preferred_guarantees_b": 12,
+    "without_preferred_guarantees": 12,
+    "preferred_counter_guarantees_a": 12,
+    "preferred_counter_guarantees_b": 12,
+    "without_preferred_counter_guarantees": 12,
+    "forecasts": 12,
+    "debt_covered": 1,
+    "judicial_process": 1,
+    "refinancing": 1,
+    "recategorizacion_mandatory": 1,
+    "legal_situacion_irrecoverable_by_technical_provision": 1,
+    "legal_status": 1,
+    "days_of_delay": 4,
+}
