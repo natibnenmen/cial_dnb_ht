@@ -29,6 +29,9 @@ Here again, there are two ways to run the docker image. You can either pull the 
 
     ```<container name>``` is whatever name you give your container
 
+    e.g.:
+    ```docker run --rm -v ~/dnb:/mnt --name data-extractor-1 natibenmen/dnb-data-extractor:1.0 python3 ./process.py /mnt/data_extractor.zip```
+
     Please note that ```<container dir>``` should not overwrite ```/opt```, where the process.py script is located.
 
 2. Build the docker image by yourself
@@ -113,3 +116,7 @@ I tested it several time with almost the same results.
 #### Conclusions
 Seek it the best apporach. It consumes the memory of the ref dictionary only, and its run time is just about 20% slower.
 Obviously it has a limit when the input file increased, and potential solutions as I mentined above
+
+## What is still missing
+1. Testing on even larger input file
+2. Functional tests are missing
