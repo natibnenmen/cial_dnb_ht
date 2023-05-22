@@ -52,7 +52,7 @@ The two configuration files are located at the cfg dir, both were extracted from
 2. ```parsing_config.json``` - created manually based on the data in the ```data_extractor_processing.pdf```
 
 I had two assumptions here:
-1. I assume that the both ```entity_mapping.tsv``` and ```data_extractor_processing.pdf``` were supplied as part of the insturctions, and they will not be present in the input zip when the scrit will be run later. So I treated the ```entity_mapping.tsv``` as static configuration. If new configuration will supplied within every input file, the code can easily be adjusted.
+1. I assume that both ```entity_mapping.tsv``` and ```data_extractor_processing.pdf``` were supplied as part of the insturctions, and that they will not be present in the input zip when the script will be run later. So I treated the ```entity_mapping.tsv``` as static configuration. If new configuration will be supplied within every input file, the code can easily be adjusted.
 
 2. The input file name within the ```data_extractor_processing.pdf``` is ```data.txt```. In that file it says that the name of the input file in the input zip is ```debts.txt```. I thouth it is a kind of error and my code assume it will only be ```data.txt```.
 
